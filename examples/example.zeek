@@ -15,4 +15,10 @@ event zeek_init() {
   local i: count = 2;
   local lshift = shift_left(n, i);
   print n, lshift, shift_right(lshift, i);
+
+  print XOR::enc_dec("A", "ABC");
+  print XOR::enc_dec("A", "ABC", set("A"));
+  print XOR::enc_dec("AB", "ABC");
+  print XOR::enc_dec("AB", "ABC", set("A"));
+  print XOR::enc_dec("AB", "ABC", set("A", "B", "C"));
 }

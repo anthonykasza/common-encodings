@@ -2,3 +2,4 @@
 @load ./bit-shifts
 @load ./b64
 @load ./rc4
+@load ./xor

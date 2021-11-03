@@ -6,3 +6,4 @@ A Zeek package which provides common encodings and operations such as:
 - base64 encoding and decoding
 - bit-shifting
 - ASCII to and from integers
+- single and multi-byte XOR operations
